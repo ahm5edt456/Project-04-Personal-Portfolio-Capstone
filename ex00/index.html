@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Ahmed Alshoubaki's personal developer portfolio."
+  >
+  <title>Ahmed Alshoubaki | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="container navbar" aria-label="Main navigation">
+      <a class="logo" href="#about">Ahmed<span>.</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button
+        id="theme-toggle"
+        type="button"
+        aria-pressed="false"
+      >
+        Dark mode
+      </button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section
+      id="about"
+      class="about section"
+      aria-labelledby="about-title"
+    >
+      <div class="about-content">
+        <p class="eyebrow">IT STUDENT &amp; DEVELOPER</p>
+
+        <h1 id="about-title">
+          Hi, I'm <span>Ahmed Alshoubaki.</span>
+        </h1>
+
+        <p>
+          I am an IT student specializing in artificial intelligence
+          and a learner at 42. I enjoy solving problems, learning new
+          technologies, and building projects that improve my skills.
+        </p>
+
+        <div class="actions">
+          <a class="button" href="#projects">Explore my projects</a>
+          <a class="button secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+
+      <img
+        class="profile-photo"
+        src="assets/profile.jpg"
+        alt="Portrait of Ahmed Alshoubaki"
+        width="320"
+        height="320"
+      >
+    </section>
+
+    <section
+      id="skills"
+      class="section"
+      aria-labelledby="skills-title"
+    >
+      <p class="eyebrow">WHAT I USE</p>
+      <h2 id="skills-title">My skills</h2>
+
+      <ul class="skills-grid">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>Git &amp; GitHub</li>
+        <li>Linux</li>
+        <li>Problem solving</li>
+      </ul>
+    </section>
+
+    <section
+      id="projects"
+      class="section"
+      aria-labelledby="projects-title"
+    >
+      <p class="eyebrow">MY LEARNING JOURNEY</p>
+      <h2 id="projects-title">Project showcase</h2>
+
+      <div class="projects-grid">
+        <article class="card">
+          <p class="project-number">PROJECT 00</p>
+          <h3>Linux, Git &amp; GitHub</h3>
+
+          <p>
+            Practicing Linux terminal commands, file management,
+            and version control with Git and GitHub.
+          </p>
+
+          <a
+            href="https://github.com/ahm5edt456/Project-00-Linux-Git-GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Project 00 repository (opens in a new tab)"
+          >
+            View repository ↗
+          </a>
+        </article>
+
+        <article class="card">
+          <p class="project-number">PROJECT 01</p>
+          <h3>HTML Fundamentals</h3>
+
+          <p>
+            Building structured web pages using semantic HTML,
+            links, images, and forms.
+          </p>
+
+          <a
+            href="https://github.com/ahm5edt456/Project-01-HTML-Fundamentals"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Project 01 repository (opens in a new tab)"
+          >
+            View repository ↗
+          </a>
+        </article>
+
+        <article class="card">
+          <p class="project-number">PROJECT 02</p>
+          <h3>CSS Visual Presentation</h3>
+
+          <p>
+            Styling web pages with colors, typography,
+            spacing, and responsive layouts.
+          </p>
+
+          <a
+            href="https://github.com/ahm5edt456/Project-02-CSS-Visual-Presentation"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Project 02 repository (opens in a new tab)"
+          >
+            View repository ↗
+          </a>
+        </article>
+
+        <article class="card">
+          <p class="project-number">PROJECT 03</p>
+          <h3>JavaScript Interactivity</h3>
+
+          <p>
+            Adding interaction through events, functions,
+            and DOM manipulation.
+          </p>
+
+          <a
+            href="https://github.com/ahm5edt456/Project-03-JavaScript-Interactivity"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Project 03 repository (opens in a new tab)"
+          >
+            View repository ↗
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section
+      id="hobbies"
+      class="section"
+      aria-labelledby="hobbies-title"
+    >
+      <p class="eyebrow">BEYOND THE CODE</p>
+      <h2 id="hobbies-title">My hobbies</h2>
+
+      <ul class="hobbies-list">
+        <li>Solving programming challenges</li>
+        <li>Developing games</li>
+        <li>Customizing my Linux setup</li>
+      </ul>
+    </section>
+
+    <section
+      id="contact"
+      class="section"
+      aria-labelledby="contact-title"
+    >
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2 id="contact-title">Contact me</h2>
+
+      <p>
+        Fill out the form to prepare a message in your email application.
+      </p>
+
+      <!-- Replace this address with your real email. -->
+      <form
+        id="contact-form"
+        data-email="ahmad7raed77@example.com"
+      >
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            autocomplete="name"
+            maxlength="80"
+            required
+          >
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          >
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            maxlength="3000"
+            required
+          ></textarea>
+        </div>
+
+        <button class="button" type="submit">
+          Open email app
+        </button>
+
+        <p id="form-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      &copy; 2026 Ahmed Alshoubaki.
+      Built with HTML, CSS and JavaScript.
+    </p>
+
+    <a
+      href="https://github.com/ahm5edt456"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+
+    <span aria-hidden="true"> · </span>
+
+    <a href="#about">Back to top ↑</a>
+  </footer>
+</body>
+</html>
